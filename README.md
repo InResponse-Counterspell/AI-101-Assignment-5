@@ -20,6 +20,8 @@ Developing this notebook involved solving several technical challenges to ensure
         Solution: We monitored the deprecation warnings (which did not hard-block execution) and accepted CrewAI's fallback token-counting approximation (assuming one token per four characters) to allow the run to continue without strictly defining the context window.
 Value and Importance of This Work
 The Strategic Value of This Analysis
+
+
 I built this in the scope as if a client had approached me with this data, as they were either A: One of the vendor's wishing to see what the overhead cost was in the future; B: I was approached
 by client wishing to purchase one of these vendors in the future.
 By utilizing a state-of-the-art multi-agent orchestrator (CrewAI) powered by advanced LLMs, this project transforms raw spatial-temporal trip data into actionable financial intelligence.
